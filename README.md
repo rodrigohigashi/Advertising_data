@@ -14,3 +14,5 @@ Este conjunto de dados contém os seguintes recursos:
 * 'Country': País do consumidor.
 * 'Timestamp': hora em que o consumidor clicou no anúncio ou janela fechada.
 * 'Clicked on Ad'': 0 ou 1 indicam se clicou ou não no anúncio.
+
+Bibliotecas utilizadas: pandas, numpy, matplotlib.pyplot, seaborn e scikit-learn.
