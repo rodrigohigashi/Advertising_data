@@ -1,4 +1,5 @@
 Anúncio na Internet - Análise e Previsão de Performance 📊💻
+
 Visão Geral do Projeto
 Este projeto tem como objetivo a criação de um modelo de machine learning para prever a performance de anúncios na internet. Utilizando dados históricos de campanhas publicitárias, o modelo de regressão linear é aplicado para prever o desempenho dos anúncios, com foco em variáveis como o valor investido, o tipo de anúncio, e os resultados obtidos em termos de cliques, conversões e vendas.
 
