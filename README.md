@@ -162,4 +162,3 @@ Melhorias Futuras
 Explorar outros modelos de machine learning, como árvores de decisão e redes neurais, para melhorar a acurácia das previsões.
 Incluir variáveis adicionais, como a segmentação demográfica e comportamental dos usuários, para prever de forma mais precisa a conversão.
 Implementar técnicas de otimização, como regularização, para evitar o overfitting e melhorar o desempenho do modelo.
->>>>>>> 3e4e1fd6f047f9e8652042e0d3daaebe2f5459f2
