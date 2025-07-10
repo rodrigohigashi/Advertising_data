@@ -1,6 +1,6 @@
+
 Anúncio na Internet - Análise e Previsão de Performance 📊💻
 
-<<<<<<< HEAD
 Projeto de Regressão Logística
 Descrição
 Este projeto implementa um modelo de regressão logística utilizando uma base de dados. O objetivo é prever a probabilidade de um determinado evento ocorrer, com base em variáveis independentes, utilizando a técnica de regressão logística. O modelo foi avaliado utilizando métricas como Acurácia, Precisão, Recall e F1-Score.
@@ -162,3 +162,98 @@ Melhorias Futuras
 Explorar outros modelos de machine learning, como árvores de decisão e redes neurais, para melhorar a acurácia das previsões.
 Incluir variáveis adicionais, como a segmentação demográfica e comportamental dos usuários, para prever de forma mais precisa a conversão.
 Implementar técnicas de otimização, como regularização, para evitar o overfitting e melhorar o desempenho do modelo.
+=======
+# Anúncio na Internet - Previsão de Cliques com Regressão Logística 📊💻
+
+## Visão Geral do Projeto
+
+Este projeto aplica **regressão logística** para prever a probabilidade de um usuário clicar em um anúncio online, com base em variáveis como idade, tempo no site, área de interesse, entre outras.
+
+A análise inclui o uso de **validação cruzada**, **matriz de confusão** e métricas como **acurácia**, **precisão**, **revocação** e **F1-score**, visando avaliar a performance do modelo em diferentes divisões dos dados.
+
+---
+
+## Objetivos do Projeto
+
+- Prever a probabilidade de cliques em anúncios com base em variáveis do usuário.
+- Analisar métricas de classificação para avaliar o desempenho do modelo.
+- Aplicar validação cruzada para garantir robustez e evitar overfitting.
+- Explorar o impacto do ajuste do limiar de decisão (threshold).
+
+---
+
+## Dataset
+
+O conjunto de dados está localizado em `data/advertising.csv` e contém:
+
+- `Age`: Idade do usuário  
+- `Daily Time Spent on Site`: Tempo médio gasto no site  
+- `Area Income`: Renda média da região do usuário  
+- `Daily Internet Usage`: Uso médio diário da internet  
+- `Clicked on Ad`: Variável alvo (1 = clicou, 0 = não clicou)
+
+---
+
+## Ferramentas e Tecnologias
+
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib, Seaborn
+
+---
+
+## Como Rodar o Projeto
+
+### 1. Clone o Repositório
+
+```bash
+git clone https://github.com/rodrigohigashi/Advertising_data.git
+cd Advertising_data
+
+2. Crie o Ambiente Virtual (opcional)
+
+python -m venv venv
+Ative o ambiente:
+
+Windows: venv\Scripts\activate
+
+Linux/macOS: source venv/bin/activate
+
+3. Instale as Dependências
+
+pip install -r requirements.txt
+
+4. Execute o Notebook
+Abra o Jupyter Notebook ou use o VS Code para executar:
+
+cd PT
+jupyter notebook projeto-de-regressao-logistica.ipynb
+
+Estrutura do Projeto
+
+Advertising_data/
+├── data/
+│   └── advertising.csv
+├── EN/
+│   └── logistic-regression.ipynb
+│   └── README_EN.md
+├── PT/
+│   └── projeto-de-regressao-logistica.ipynb
+│   └── README_PT.md
+├── requirements.txt
+└── README.md
+
+Resultados e Métricas
+
+Acurácia média: 97,0%
+Precisão média: 98,2%
+Revocação média: 95,8%
+F1-score médio: 96,9%
+
+Esses resultados foram obtidos com validação cruzada (5 folds), indicando um modelo robusto e confiável para prever cliques em anúncios.
+
+Licença
+Este projeto está licenciado sob a Licença MIT.
+
+
